@@ -1,0 +1,103 @@
+.top-border {
+    border-top: 5px solid black; /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+  }
+  header img{
+    float: center;
+    padding: 10px;
+  }
+  main header{
+    width: 50%;
+    float: center;
+  }
+  .top-border2{
+    border-top: 5px solid black; /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+  }
+  aside{
+    float: right;
+  color: black;
+  padding-right: 25px;
+  }
+  main{
+    padding-left: 25px;
+  }
+  
+  a{
+    color: black;
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-top: 5px solid rgb(0, 0, 0); /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid black;
+  }
+  .logo{
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 3px;
+  }
+  .navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+  margin-left: 100px;
+  }
+  .navbar a::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: .3s;
+  }
+  .navbar a:hover:before{
+  width: 100%;
+  }
+  .top-border {
+    border-top: 5px solid black; /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+  }
+  footer p {
+	text-align: center;
+	padding: 1em 0;
+}

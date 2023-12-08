@@ -1,0 +1,80 @@
+h1{
+    border-top: 5px solid black; /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+
+}
+main{
+    float: left;
+    padding-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    border: 5px solid black;
+}
+Aside{
+    padding-top: 35px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    border: 5px solid black;
+    
+}
+.logo{
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 3px;
+  }
+  .navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+  margin-left: 100px;
+  }
+  .navbar a::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: .3s;
+  }
+  .navbar a:hover:before{
+  width: 100%;
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-top: 5px solid rgb(0, 0, 0); /* You can change the color and thickness of the border here */
+    padding-top: 5px; /* Add some padding to maintain space between the content and the border */
+    text-align: center; /* Center the text horizontally */
+    
+    background-color: #ffffff; /* Optional: Add a background color for the top border section */
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid black;
+  }
+  aside{
+    float: right;
+  }
